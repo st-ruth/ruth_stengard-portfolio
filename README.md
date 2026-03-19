@@ -3,7 +3,7 @@
 This is my portfolio where I introduce myself, my projects and how to contact me.
 
 ## Links to this project
-- Live site: 
+- Live site: https://ruth-stengard-portfolio.netlify.app/
 - Github: https://github.com/st-ruth/ruth_stengard-portfolio 
 
 ## About the project
@@ -11,7 +11,7 @@ This project was created as a part of a course in HTML & CSS.
 The focus has been on creating a responsive and user-friendly portfolio with a well-thought-out design and structure.
 
 ## How to run locally
-1. Clone this repository: https://st-ruth.github.io/ruth_stengard-portfolio/
+1. Clone this repository:
    git clone https://github.com/st-ruth/ruth_stengard-portfolio.git
 
 2. Navigate into the project folder:
@@ -43,3 +43,4 @@ Some repeated flexbox patterns (e.g centered layouts) are intentionally kept wit
 
 ## KNOWN PROBLEMS
 - *projects page* : At screen resolution 1920x1080, the desktop view gets skewed: margin-left increases unexpectedly, and the footer underlaps the cards. At higher resolutions (2650x1600) it looks fine. Likely related to aspect ratio, but I haven’t had time to investigate further.
+- *about page* : Received a validation-warning of missing heading attribute on my `img`. I added a `h4` and used `display:none` to work around this issue, thought I'm not sure if this is the best practice. vad gör 
