@@ -79,7 +79,7 @@ h1 {
 }
 
 #mobil-fixed-link {
-    display: flex-inline;
+    display: inline-flex;
     justify-content: baseline;
     align-items: center;
   
