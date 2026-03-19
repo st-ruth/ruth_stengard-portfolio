@@ -4,14 +4,14 @@ This is my portfolio where I introduce myself, my projects and how to contact me
 
 ## Links to this project
 - Live site: 
-- Git hub: https://github.com/st-ruth/ruth_stengard-portfolio 
+- Github: https://github.com/st-ruth/ruth_stengard-portfolio 
 
 ## About the project
 This project was created as a part of a course in HTML & CSS. 
 The focus has been on creating a responsive and user-friendly portfolio with a well-thought-out design and structure.
 
 ## How to run locally
-1. Clone this repository:
+1. Clone this repository: https://st-ruth.github.io/ruth_stengard-portfolio/
    git clone https://github.com/st-ruth/ruth_stengard-portfolio.git
 
 2. Navigate into the project folder:
