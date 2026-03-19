@@ -1,6 +1,7 @@
 # Ruth Stengård Portfolio
 
 This is my portfolio where I introduce myself, my projects and how to contact me.
+Target group: no specific age target 
 
 ## Links to this project
 - Live site: https://ruth-stengard-portfolio.netlify.app/
