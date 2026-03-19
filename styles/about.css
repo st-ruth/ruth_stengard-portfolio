@@ -80,7 +80,7 @@ h1 {
 
 #mobil-fixed-link {
     display: inline-flex;
-    justify-content: baseline;
+    justify-content: flex-end;
     align-items: center;
   
     margin-top: 0.5rem;
@@ -125,7 +125,7 @@ h4 {
 
     #fixed-link {
         display: inline-block;
-        justify-content: baseline;
+        justify-content: flex-end;
         align-items: center;
 
         margin-top: 0.5rem;
