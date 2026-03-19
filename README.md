@@ -43,4 +43,4 @@ Some repeated flexbox patterns (e.g centered layouts) are intentionally kept wit
 
 ## KNOWN PROBLEMS
 - *projects page* : At screen resolution 1920x1080, the desktop view gets skewed: margin-left increases unexpectedly, and the footer underlaps the cards. At higher resolutions (2650x1600) it looks fine. Likely related to aspect ratio, but I haven’t had time to investigate further.
-- *about page* : Received a validation-warning of missing heading attribute on my `img`. I added a `h4` and used `display:none` to work around this issue, thought I'm not sure if this is the best practice. vad gör 
+- *about page* : Received a validation-warning of missing heading attribute on my `img`. I added a `h4` and used `display:none` to work around this issue, thought I'm not sure if this is the best practice. 
