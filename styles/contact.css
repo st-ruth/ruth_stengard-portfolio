@@ -1,0 +1,97 @@
+body {
+    background-color: var(--darkcolor);
+}
+
+a, span {
+    color: var(--brightcolor);
+}
+
+.logo {
+    border: 1px solid var(--brightcolor);
+}
+
+.social-icon, .copyright-symbol {
+    stroke: var(--brightcolor);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0.8rem;
+    color: var(--brightcolor);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: min(90vw, 40rem);
+
+    aspect-ratio: 1/1;
+    border-radius: var(--border-radius);
+    background-color: var(--sectioncolor-dark);
+}
+
+.contact-card form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1rem; 
+
+    font-size: var(--font-size-body);
+    color: var(--brightcolor);
+}
+
+textarea {
+    border-radius: var(--border-radius);
+}
+
+.field {
+    display:flex;
+    flex-direction: column;
+}
+
+.field:has(textarea) {
+    grid-column: 1/-1;
+}
+
+button {
+    grid-column: 1/-1;
+}
+
+input, button, textarea {
+    border-radius: var(--border-radius);
+    background-color: var(--brightcolor);
+    font-family: var(--font-family);  
+}
+
+input::placeholder, textarea::placeholder {
+    padding-left: 0.3rem;
+    color: var(--darkcolor);
+}
+
+input:focus, textarea:focus, button:focus {
+    background-color: var(--accentcolor);
+    outline: none;
+}
+
+/* RESPONS */
+/* DESKTOP */
+@media (min-width: 1024px) {
+
+    button:hover, input:hover, textarea:hover {
+        border: 2px solid var(--accentcolor);
+    }
+
+    button:hover {
+        font-weight: var(--font-weight-bold);
+        color: var(--accentcolor);
+    }
+}

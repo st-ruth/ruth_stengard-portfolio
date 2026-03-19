@@ -1,0 +1,121 @@
+body {
+    background-color: var(--darkcolor);
+    
+    font-family: var(--font-family);
+    color: var(--brightcolor);  
+}
+
+/* HEADER */
+.logo {
+    border: 1px solid var(--brightcolor);
+}
+
+.social-icon, .copyright-symbol {
+    stroke: var(--brightcolor);
+}
+
+a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: var(--brightcolor); 
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: var(--font-weight-light);   
+}
+
+h1 {
+    font-size: 10rem;
+    letter-spacing: 0.5rem; 
+}
+
+h2 {
+    font-size: 5rem; 
+    letter-spacing: 1rem;
+}
+
+.hero a {
+    padding: 0.1rem 0.5rem 0.1rem .5rem; 
+    border: 1px solid var(--accentcolor);
+    border-radius: var(--border-radius-link);
+    letter-spacing: 0.7rem; 
+}
+
+/* RESPONS */
+/* LARGER PHONE */
+@media (min-width: 640px) {
+
+    h1 {
+        font-size: 15rem;
+        letter-spacing: 1rem;
+    }
+
+    h2 {
+        font-size: 10rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .hero a {
+        letter-spacing: 1rem; 
+    }
+
+    .hero a {
+        padding: 0.2rem 2rem 0.2rem 2rem;
+    }
+}
+
+/* IPAD */
+@media (min-width: 768px) {
+
+    h1{
+        letter-spacing: 1.2rem;
+    }
+
+    h2{
+        letter-spacing: 1rem;
+    }
+    
+    .hero a {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem; 
+        border: 1px solid var(--accentcolor);
+        border-radius: var(--border-radius-link);
+        letter-spacing: 1.2rem;
+     }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    
+    h1 {
+        letter-spacing: 2.1rem;
+    }
+
+    h2 {
+        letter-spacing: 1.5rem;
+    }
+
+    .hero a {
+        border: 1px solid var(--transperent);
+        letter-spacing: 1.5rem;
+    }
+
+    .hero a:hover{
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem; 
+        border: 1px solid var(--accentcolor);
+        border-radius: var(--border-radius-link);
+        color: var(--accentcolor);
+    }
+}
